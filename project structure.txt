@@ -1,0 +1,6 @@
+I (Kanyana Jashi) have structured my project as below :
+
+voice_sentiment_project/
+├── pipeline.py       ← All Models and processing functions
+├── gradio_app.py     ← My Gradio interface
+├── api_server.py     ← FastAPI endpoint for external access

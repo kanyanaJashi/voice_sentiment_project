@@ -45,7 +45,7 @@ Bien que le contexte d’usage soit multilingue, **l'anglais a été choisi comm
 ## Interfaces disponibles
 
 - **Gradio** : Interface conviviale pour tester le pipeline localement via navigateur
-- **FastAPI** : Endpoint `/analyze` permettant l'intégration dans des applications tierces (via POST multipart)
+- **FastAPI** : Endpoint `/analyze` permettant l'intégration dans des applications tierces.
 
 ---
 
@@ -60,11 +60,8 @@ Bien que le contexte d’usage soit multilingue, **l'anglais a été choisi comm
 ---
 
 ## À venir
-- Dockerisation
-- Multilinguisme progressif
-- Authentification pour l’API
+- Dockerisation (par exemple)
 
----
 
 ## Auteur
 

@@ -11,6 +11,6 @@ gr.Interface(
         gr.Label(label="Sentiment"),
         gr.Number(label="Confidence Score")
     ],
-    title="📞 JASHI Voice Sentiment Detector",
+    title="📞 Voice Sentiment Detector - JASHI",
     description="Detects sentiment in customer voice calls using Wav2Vec2, grammar correction, and BERT."
 ).launch()

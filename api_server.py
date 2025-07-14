@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.post("/analyze")
 async def analyze(file: UploadFile = File(...)):
-    audio_path = "/tmp/" + file.filename
+    audio_path = file.filename
     with open(audio_path, "wb") as f:
         f.write(await file.read())
 
